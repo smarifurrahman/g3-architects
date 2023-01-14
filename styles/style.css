@@ -1,0 +1,60 @@
+/* ------------------
+    common styles
+---------------------- */
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin-bottom: 130px;
+}
+
+.title {
+    font-size: 45px;
+    font-size: 700;
+    color: #131313;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.secondary-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.secondary-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+
+.button-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+}
