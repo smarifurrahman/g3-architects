@@ -13,6 +13,8 @@ html {
 
 body {
     font-family: 'Work Sans', sans-serif;
+    max-width: 1900px;
+    margin: 0 auto;
 }
 
 .container {
