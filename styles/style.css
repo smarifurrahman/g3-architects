@@ -284,7 +284,7 @@ body {
 }
 
 .package-info {
-    padding: 15px;
+    padding: 30px 15px;
 }
 
 .package-info p {
@@ -377,7 +377,7 @@ footer p {
         grid-area: a;
         grid-template-columns: repeat(1,1fr);
         gap: 40px;
-        justify-items: center
+        justify-items: center;
     }
 
     .team-info {
@@ -448,3 +448,124 @@ footer p {
         gap: 60px;
     }
 }
+
+/* tablet */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    main {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .container {
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .header-container {
+        width: 90%;
+    }
+
+    .section-top-center {
+        width: 90%;
+    }
+
+    /* nav bar */
+    .nav-bar {
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+
+    /* banner */
+    .banner-info {
+        width: 90%;
+    }
+
+    .banner-info h1 {
+        font-size: 54px;
+    }
+
+    /* our features */
+    .teams {
+        grid-area: a;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .team-info {
+        grid-area: b;
+    }
+
+    .our-features-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "b"
+        "a"
+        ;
+        gap: 70px;
+        padding: 0 40px;
+    }
+
+    /* features you love */
+    #feature-des {
+        padding: 0 40px;
+    }
+
+    #features-sec {
+        margin-bottom: 0;
+    }
+    
+    .features-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .features-container h2 {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .features {
+        padding: 60px 0 30px;
+    }
+    
+    .button-big {
+        left: 5px;
+    }
+
+    /* some facts */
+    .facts-about{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .facts {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin: 0 auto;
+        margin-top: 60px;
+        justify-items: center;
+        width: 60%;
+    }
+
+    /* buy package */
+    .packages {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    /* sponsor */
+    .section-top-center {
+        width: 90%;
+    }
+
+    .sponsors {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+    }
+}
+/* -----------------
+        End
+--------------------- */
